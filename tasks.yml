@@ -1,13 +1,4 @@
-Naiku:
-  431:
-    - make shadows
-
-HSocial:
-    - Smokescreen
-
 Jobschneider:
-  - ueber uns
-  - unbedenklichkeit
   - worker view forms
   - add business to worker
   - add worker to business
@@ -17,6 +8,14 @@ Jobschneider:
   - business ferein
   - role authorizations
   - notifications
+
+Naiku:
+  431:
+    - make shadows
+  519: improve mobile ui
+
+HSocial:
+    - Smokescreen
 
 Fancy:
   - ring sizer
