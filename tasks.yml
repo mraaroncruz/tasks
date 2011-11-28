@@ -9,6 +9,14 @@ Naiku:
       - make shadows
   - 519: improve mobile ui
 
+OpenSource:
+  - finder_open_in:
+    - start repo with:
+      - open in terminal
+      - open in iterm
+      - open in vim
+      - open in textmate
+
 Other:
   - research partnership
 
