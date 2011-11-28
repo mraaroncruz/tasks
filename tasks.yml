@@ -7,6 +7,11 @@ JCS2:
   - "Schritt 3: JCS: postet etwas auf der Pinnwand des Fans, wodurch der Fan am Gewinnspiel teilnehmt"
   - "Schritt 4: Freunde können mit der App zum Gewinnspiel eingeladen werden. Gewinnspielchance kann pro eingeladenen Freund einmal erhöht werden"
 
+Naiku:
+  431:
+    - make shadows
+  519: improve mobile ui
+
 Jobschneider:
   - add business to worker
   - add worker to business
@@ -16,11 +21,6 @@ Jobschneider:
   - business ferein
   - role authorizations
   - notifications
-
-Naiku:
-  431:
-    - make shadows
-  519: improve mobile ui
 
 HSocial:
     - Smokescreen
