@@ -1,16 +1,16 @@
-Other:
-  - research partnership
-
 JCS2:
-  - "Schritt 1: Fan liked Fanpage"
-  - "Schritt 2: Fan lässt App auf eigene Daten zugreifen"
-  - "Schritt 3: JCS: postet etwas auf der Pinnwand des Fans, wodurch der Fan am Gewinnspiel teilnehmt"
-  - "Schritt 4: Freunde können mit der App zum Gewinnspiel eingeladen werden. Gewinnspielchance kann pro eingeladenen Freund einmal erhöht werden"
+  - replace images
 
 Naiku:
-  431:
-    - make shadows
-  519: improve mobile ui
+  - 39:
+  - 541:
+  - 542:
+  - 431:
+      - make shadows
+  - 519: improve mobile ui
+
+Other:
+  - research partnership
 
 Jobschneider:
   - add business to worker
