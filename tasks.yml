@@ -9,6 +9,12 @@ Naiku:
       - make shadows
   - 519: improve mobile ui
 
+TLG:
+  - write tasks
+
+Fancy:
+  - ring sizer
+
 OpenSource:
 
   - finder_open_in:
@@ -38,5 +44,3 @@ Jobschneider:
 HSocial:
     - Smokescreen
 
-Fancy:
-  - ring sizer
