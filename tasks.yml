@@ -1,39 +1,42 @@
-JCS2:
-  - create way to determine winner
-  - determine winnerz
-
-TLG:
-  - volunteer show partials
-  - volunteer show accordion
-  - user js filter
-  - sorting
-  - volunteer as authenticatible
-  - volunteer surveys
-
-EGS:
-  - fancy reference
-  - DNS
-
 Naiku:
+  - NaN:
+  - 562:
+  - 561:
+  - 573:
+  - 545:
   - 519: improve mobile ui
 
-Ichmachpolitik:
-  - follow admin line
-  - rails upgrade plugin
-  - run in 3
-
-Fancy:
-  - ring sizer
-
+TLG:
+  - Different user roles
+  - Department Filters
 Life:
   - get receipts together:
     - for accountant
     - for magistrat
 
+JSQuiz:
+  - finish app
+
+Fancy:
+  - ring sizer
+
+OpenSource:
+  - finder_open_in:
+    - start repo with:
+      - open in terminal
+      - open in iterm
+      - open in vim
+      - open in textmate
+  - guard_sprockets:
+    - update to sprockets2:
+      - keep sprockets1 as branch
+
+Other:
+  - research partnership
+
 Jobschneider:
   - add business to worker
   - add worker to business
-  - worker transportation
   - business manage angebote
   - business view documents
   - business ferein
@@ -43,24 +46,4 @@ Jobschneider:
 HSocial:
     - Smokescreen
 
-Casale:
-  - setup store
-  - i18n
-  - css 
-  - payment
-
-Other:
-  - research partnership
-
-OpenSource:
-
-  - finder_open_in:
-    - start repo with:
-      - open in terminal
-      - open in iterm
-      - open in vim
-      - open in textmate
-
-  - guard_sprockets:
-    - update to sprockets2:
-      - keep sprockets1 as branch
+JCS2:
