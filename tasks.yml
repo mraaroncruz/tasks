@@ -1,3 +1,21 @@
+Fancy:
+  - ring sizer
+
+Ichmachpolitik:
+  - make tasks :)
+
+Naiku:
+  - 577: Newly added Choices don't work properly
+  - 578:
+  - 579:
+  - 580:
+  - 581:
+  - 582:
+  - 545:
+  - 519: improve mobile ui
+  - 561:
+  - 573:
+
 Jobschneider:
   - Orders
     - counts line items not actual items
@@ -29,18 +47,6 @@ Jobschneider:
   - Features:
     - Worker can register... manager can approve
 
-Naiku:
-  - 577: Newly added Choices don't work properly
-  - 578:
-  - 579:
-  - 580:
-  - 581:
-  - 582:
-  - 545:
-  - 519: improve mobile ui
-  - 561:
-  - 573:
-
 TLG:
   - Different user roles
   - Department Filters
@@ -52,9 +58,6 @@ Life:
 
 JSQuiz:
   - finish app
-
-Fancy:
-  - ring sizer
 
 OpenSource:
   - finder_open_in:
@@ -70,4 +73,3 @@ Other:
 HSocial:
     - Smokescreen
 
-JCS2:
