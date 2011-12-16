@@ -63,9 +63,6 @@ OpenSource:
       - open in iterm
       - open in vim
       - open in textmate
-  - guard_sprockets:
-    - update to sprockets2:
-      - keep sprockets1 as branch
 
 Other:
   - research partnership
