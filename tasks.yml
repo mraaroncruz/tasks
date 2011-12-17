@@ -13,6 +13,7 @@ Naiku:
   - 519: improve mobile ui
   - 561:
   - 573:
+  - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
 
 Jobschneider:
   - Orders
