@@ -1,0 +1,19 @@
+actions:
+
+  open_applications:
+    - iTerm.app
+    - Google Chrome.app
+    - My Little Pomodoro.app
+
+  check_sites:
+    - http://podereilcasale.it
+    - http://yarrowspa.com
+    - http://aaroncruz.com
+    - http://sooprofessional.com
+
+  check_email:
+    - open /Applications/Mail.app
+
+  arrange_first_project:
+
+  start_pomodoro:

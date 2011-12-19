@@ -1,75 +1,88 @@
-TLG:
-  - Different user roles
-  - Department Filters
+tasks:
+  tlg:
+    url: tlg.dev/
+    tasks:
+      - Different user roles
+      - Department Filters
 
-Fancy:
-  - ring sizer
+  Fancy:
+    url: https://fancyjewels.myshopify.com/admin
+    tasks: 
+      - ring sizer
 
-Ichmachpolitik:
-  - make tasks :)
+  Ichmachpolitik:
+    url: ichmachpolitik.dev/
+    tasks:
+      - make tasks :)
 
-Naiku:
-  - 580: seeing attachment when viewing an item without an attachment
-  - 581:
-  - 582:
-  - 545:
-  - 519: improve mobile ui
-  - 561:
-  - 573:
-  - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
+  Naiku:
+    url: teachers.naiku.dev/
+    tasks:
+      - 580: seeing attachment when viewing an item without an attachment
+      - 581:
+      - 582:
+      - 545:
+      - 519: improve mobile ui
+      - 561:
+      - 573:
+      - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
 
-Jobschneider:
-  - Orders
-    - counts line items not actual items
-  - job applications view in manager interface
-    - submenu in pages jobangebote
-  - google maps search field at top of map
-  - move oebb, wiener... in kontakt to a new tab Anfahrtshilfe, remove from worker tabs
-  - Row for work site in timesheet:
-    - simple textfield in timesheet
-  - Timesheet interface
-    - more like original paper
-  - Manager
-    - must be able to edit worker timesheet times, etc.
-  - Worker additions
-    - SSN
-  - Business
-    - Required fields
-      - name
-  - prettier date division
-  - hint for time format/ validations...
-  - fehlzeit summe
-  - add business to worker
-  - add worker to business
-  - business manage angebote
-  - business view documents
-  - business ferein
-  - role authorizations
-  - notifications
-  - Features:
-    - Worker can register... manager can approve
+  Jobschneider:
+    url: jobschneider.dev/
+    tasks:
+      - Orders
+        - counts line items not actual items
+      - job applications view in manager interface
+        - submenu in pages jobangebote
+      - google maps search field at top of map
+      - move oebb, wiener... in kontakt to a new tab Anfahrtshilfe, remove from worker tabs
+      - Row for work site in timesheet:
+        - simple textfield in timesheet
+      - Timesheet interface
+        - more like original paper
+      - Manager:
+        - must be able to edit worker timesheet times, etc.
+      - Worker_additions:
+        - SSN
+      - Business:
+        Required_Fields:
+          - name
+      - prettier date division
+      - hint for time format/ validations...
+      - fehlzeit summe
+      - add business to worker
+      - add worker to business
+      - business manage angebote
+      - business view documents
+      - business ferein
+      - role authorizations
+      - notifications
+      - Features:
+        - Worker can register... manager can approve
 
-Life:
-  - get receipts together:
-    - for accountant
-    - for magistrat
+  Life:
+    get receipts together:
+      - for accountant
+      - for magistrat
 
-JSQuiz:
-  - finish app
+  JSQuiz:
+    - finish app
 
-OpenSource:
-  - locomotive_site:
-    - add heroku instructions. http://github.com/locomotive/engine/issues/235
-  - finder_open_in:
-    - start repo with:
-      - open in terminal
-      - open in iterm
-      - open in vim
-      - open in textmate
+  OpenSource:
+    - locomotive_site:
+      - add heroku instructions. http://github.com/locomotive/engine/issues/235
+    - finder_open_in:
+      - start repo with:
+        - open in terminal
+        - open in iterm
+        - open in vim
+        - open in textmate
 
-Other:
-  - research partnership
+  Other:
+    - research partnership
 
-HSocial:
-    - Smokescreen
+  HSocial:
+    url: hsocial.dev/
+    tasks:
+      - Smokescreen
 

@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+require 'yaml'
+tasks = YAML.load_file(File.expand_path('../start_of_day.yml', __FILE__))
+
+# Check sites
+actions = tasks['actions']
+puts "Checking Sites..."
+actions['check_sites'].each do |url|
+  puts "*** Opening Site #{url} ***"
+  `open #{url}`
+end
+
+# Current Project
+puts "Opening current project..."
+
+projects = YAML.load_file(File.expand_path('../tasks.yml', __FILE__))
+tasks    = projects['tasks']
+# If I don't know the key, I have to do this ugliness...
+project  = tasks.first.first
+url      = tasks.first.last['url']
+
+puts "*** Opening http://#{url} from project #{project} ***"
+
+`open http://#{url}`
+
+# Complete :D
+puts "Start of day complete!"
