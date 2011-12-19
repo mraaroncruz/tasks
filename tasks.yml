@@ -1,3 +1,7 @@
+TLG:
+  - Different user roles
+  - Department Filters
+
 Fancy:
   - ring sizer
 
@@ -45,10 +49,6 @@ Jobschneider:
   - Features:
     - Worker can register... manager can approve
 
-TLG:
-  - Different user roles
-  - Department Filters
-
 Life:
   - get receipts together:
     - for accountant
@@ -58,6 +58,8 @@ JSQuiz:
   - finish app
 
 OpenSource:
+  - locomotive_site:
+    - add heroku instructions. http://github.com/locomotive/engine/issues/235
   - finder_open_in:
     - start repo with:
       - open in terminal
