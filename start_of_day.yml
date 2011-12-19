@@ -1,9 +1,9 @@
 actions:
 
   open_applications:
-    - "iTerm.app"
     - "'Google\ Chrome.app'"
     - "'My\ Little\ Pomodoro.app'"
+    - "iTerm.app"
 
   check_sites:
     - http://podereilcasale.it

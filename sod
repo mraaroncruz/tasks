@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+require 'typhoeus'
 require 'yaml'
 tasks = YAML.load_file(File.expand_path('../start_of_day.yml', __FILE__))
 
@@ -15,10 +16,17 @@ sleep 5
 
 # Check sites
 puts "Checking Sites..."
+hydra = Typhoeus::Hydra.new
 actions['check_sites'].each do |url|
-  puts "*** Opening Site #{url} ***"
-  `open #{url}`
+  puts "*** Checking Site #{url} ***"
+  request = Typhoeus::Request.new(url)
+  request.on_complete do |response|
+    puts "#{url} responded with #{response.code}"
+    `open #{url}` unless response.code == 200
+  end
+  hydra.queue request
 end
+hydra.run
 
 # Current Project
 puts "Opening current project..."
