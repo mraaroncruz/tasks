@@ -2,8 +2,18 @@
 require 'yaml'
 tasks = YAML.load_file(File.expand_path('../start_of_day.yml', __FILE__))
 
-# Check sites
 actions = tasks['actions']
+
+# Open Apps
+puts "Opening Apps..."
+actions['open_applications'].each do |app|
+  puts "*** Opening Application #{app} ***"
+  `open /Applications/#{app}`
+end
+
+sleep 5
+
+# Check sites
 puts "Checking Sites..."
 actions['check_sites'].each do |url|
   puts "*** Opening Site #{url} ***"
