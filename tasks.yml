@@ -1,4 +1,17 @@
 tasks:
+  Naiku:
+    url: teachers.naiku.dev/
+    tasks:
+      605: shared group results
+      607: clean up standards searchbox
+      609: Change classess index tabs around
+      581:
+      582:
+      545:
+      519: improve mobile ui
+      uncategorized:
+        - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
+
   tlg:
     url: tlg.dev/
     tasks:
@@ -14,19 +27,6 @@ tasks:
     url: ichmachpolitik.dev/
     tasks:
       - make tasks :)
-
-  Naiku:
-    url: teachers.naiku.dev/
-    tasks:
-      - 598: attachment is weird
-      - 580: seeing attachment when viewing an item without an attachment
-      - 581:
-      - 582:
-      - 545:
-      - 519: improve mobile ui
-      - 561:
-      - 573:
-      - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
 
   Jobschneider:
     url: jobschneider.dev/
