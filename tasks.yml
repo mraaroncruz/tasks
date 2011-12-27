@@ -1,9 +1,15 @@
 tasks:
+  tlg:
+    url: tlg.dev/
+    tasks:
+      - Add school/co-teacher functionality in volunteer
+      - Different user roles
+      - Department Filters
+
   Naiku:
     url: teachers.naiku.dev/
     tasks:
       605: shared group results
-      607: clean up standards searchbox
       609: Change classess index tabs around
       581:
       582:
@@ -11,12 +17,6 @@ tasks:
       519: improve mobile ui
       uncategorized:
         - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
-
-  tlg:
-    url: tlg.dev/
-    tasks:
-      - Different user roles
-      - Department Filters
 
   Fancy:
     url: https://fancyjewels.myshopify.com/admin
