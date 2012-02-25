@@ -10,6 +10,19 @@ tasks:
       - role authorizations
       - notifications
 
+  ovc:
+    url: ovc.dev/
+    tasks:
+      - grab persisted blocks
+      - on video upload show episode form
+      - redirects
+      - reorganization
+      playlists:
+        - calculate time when dropped in block
+        - save when dropped in block
+      blocks:
+        - information/repeat context menu
+
   bluesky:
     url: bluesky.dev/
     tasks:
