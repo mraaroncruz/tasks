@@ -1,22 +1,30 @@
 tasks:
+
+  Jobschneider:
+    url: jobschneider.dev/
+    tasks:
+      - Row for work site in timesheet:
+        - simple textfield in timesheet
+      - Worker_additions:
+        - SSN
+      - role authorizations
+      - notifications
+
+  bluesky:
+    url: bluesky.dev/
+    tasks:
+
+  casale:
+    url: casale.dev/
+    tasks:
+
+  egs:
+    url: egs.dev/
+    tasks:
+
   tlg:
     url: tlg.dev/
     tasks:
-      - Add school/co-teacher functionality in volunteer
-      - Different user roles
-      - Department Filters
-
-  Naiku:
-    url: teachers.naiku.dev/
-    tasks:
-      605: shared group results
-      609: Change classess index tabs around
-      581:
-      582:
-      545:
-      519: improve mobile ui
-      uncategorized:
-        - look at what is going on at the bottom of app/assets/javascripts/backbone/views/items/form_view.js.coffee
 
   Fancy:
     url: https://fancyjewels.myshopify.com/admin
@@ -28,57 +36,14 @@ tasks:
     tasks:
       - make tasks :)
 
-  Jobschneider:
-    url: jobschneider.dev/
-    tasks:
-      - Orders
-        - counts line items not actual items
-      - job applications view in manager interface
-        - submenu in pages jobangebote
-      - google maps search field at top of map
-      - move oebb, wiener... in kontakt to a new tab Anfahrtshilfe, remove from worker tabs
-      - Row for work site in timesheet:
-        - simple textfield in timesheet
-      - Timesheet interface
-        - more like original paper
-      - Manager:
-        - must be able to edit worker timesheet times, etc.
-      - Worker_additions:
-        - SSN
-      - Business:
-        Required_Fields:
-          - name
-      - prettier date division
-      - hint for time format/ validations...
-      - fehlzeit summe
-      - add business to worker
-      - add worker to business
-      - business manage angebote
-      - business view documents
-      - business ferein
-      - role authorizations
-      - notifications
-      - Features:
-        - Worker can register... manager can approve
-
   Life:
-    get receipts together:
+    get_receipts_together:
       - for accountant
-      - for magistrat
 
   JSQuiz:
-    - finish app
+    - parser
 
   OpenSource:
-    - locomotive_site:
-      - has_many/has_one
-      - model presentation
-      - record ordering
-      - using the api
-      - api should have on submenu tab
-      - add heroku instructions. http://github.com/locomotive/engine/issues/235
-      - exporting you theme
-      - all liquid filters
     - finder_open_in:
       - start repo with:
         - open in terminal
@@ -87,7 +52,6 @@ tasks:
         - open in textmate
 
   Other:
-    - research partnership
 
   HSocial:
     url: hsocial.dev/
