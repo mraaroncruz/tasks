@@ -1,9 +1,34 @@
 tasks:
 
+  casale:
+    url: casale.dev/
+    tasks:
+      - navbar
+      - find reasonable i18n
+      - products
+      - product show
+      - checkout
+    pages:
+      spree:
+        - home
+        - product index
+        - product show
+        - checkout process
+      cms:
+        about:
+          - podere
+          - production
+          - agriturismus
+       contacts:
+        - wholesale
+        - normal
+        - combine these?
+      distributors:
+
   bluesky:
     url: bluesky.dev/
     tasks:
-      - finish product show
+      - consignment... ?
 
   Jobschneider:
     url: jobschneider.dev/
