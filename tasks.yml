@@ -1,5 +1,10 @@
 tasks:
 
+  bluesky:
+    url: bluesky.dev/
+    tasks:
+      - finish product show
+
   Jobschneider:
     url: jobschneider.dev/
     tasks:
@@ -22,10 +27,6 @@ tasks:
         - save when dropped in block
       blocks:
         - information/repeat context menu
-
-  bluesky:
-    url: bluesky.dev/
-    tasks:
 
   casale:
     url: casale.dev/
