@@ -4,7 +4,6 @@ tasks:
     url: casale.dev/
     tasks:
       - navbar
-      - find reasonable i18n
       - products
       - product show
       - checkout
