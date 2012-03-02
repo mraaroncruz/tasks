@@ -24,6 +24,41 @@ tasks:
         - combine these?
       distributors:
 
+  tlg:
+    url: tlg.dev/
+    tasks:
+      payment_months:
+      - volunteer information on volunteer show
+
+      - intro meeting date
+        - vols
+        - principals
+        - erc head
+
+      - school list
+        - region
+        - district
+
+      - coteacher
+        - add levels
+        - grade-level
+
+      - volunteer profile school shows school info
+
+      levels:
+       - "1 - 6"
+      grades:
+       - "1 - 6"
+
+      personal_chars:
+        - count of volunteers with personal charistics
+
+      stats:
+        - coteachers trained by training
+        - num coteachers working with volunteers
+        - tlg volunteers in levels
+        - which levels for grades
+
   bluesky:
     url: bluesky.dev/
     tasks:
@@ -52,16 +87,12 @@ tasks:
       blocks:
         - information/repeat context menu
 
-  casale:
-    url: casale.dev/
+  imp:
+    url: imp.dev/
     tasks:
 
   egs:
     url: egs.dev/
-    tasks:
-
-  tlg:
-    url: tlg.dev/
     tasks:
 
   Fancy:
@@ -69,17 +100,12 @@ tasks:
     tasks: 
       - ring sizer
 
-  Ichmachpolitik:
-    url: ichmachpolitik.dev/
-    tasks:
-      - make tasks :)
-
   Life:
     get_receipts_together:
       - for accountant
 
   JSQuiz:
-    - parser
+    - find quiz
 
   OpenSource:
     - finder_open_in:
