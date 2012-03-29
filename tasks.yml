@@ -1,17 +1,48 @@
 tasks:
 
+  emails:
+  - maia
+  - jen
+
+  tlg:
+    url: tlg.dev/
+    tasks:
+      - volunteer information on volunteer show
+
+      - volunteer profile school shows school info
+
+      stats:
+        - count of volunteers with personal charistics
+        - coteachers trained by training
+        - num coteachers working with volunteers
+        - tlg volunteers in levels
+        - which levels for grades
+
+  Jobschneider:
+    url: jobschneider.dev/
+    tasks:
+      - Row for work site in timesheet:
+        - simple textfield in timesheet
+      - Worker_additions:
+        - SSN
+      - role authorizations
+      - notifications
+
+  taxes:
+    - print out all pdfs
+    - gather receipts
+    - scan receipts
+    - do receipt math
+    - find steuerberater
+    - find US company info
+    - tax form for US
+
   casale:
     url: casale.dev/
     tasks:
-      - navbar
-      - products
-      - product show
       - checkout
     pages:
       spree:
-        - home
-        - product index
-        - product show
         - checkout process
       cms:
         about:
@@ -23,56 +54,6 @@ tasks:
         - normal
         - combine these?
       distributors:
-
-  tlg:
-    url: tlg.dev/
-    tasks:
-      payment_months:
-      - volunteer information on volunteer show
-
-      - intro meeting date
-        - vols
-        - principals
-        - erc head
-
-      - school list
-        - region
-        - district
-
-      - coteacher
-        - add levels
-        - grade-level
-
-      - volunteer profile school shows school info
-
-      levels:
-       - "1 - 6"
-      grades:
-       - "1 - 6"
-
-      personal_chars:
-        - count of volunteers with personal charistics
-
-      stats:
-        - coteachers trained by training
-        - num coteachers working with volunteers
-        - tlg volunteers in levels
-        - which levels for grades
-
-  bluesky:
-    url: bluesky.dev/
-    tasks:
-      - consignment... ?
-
-  Jobschneider:
-    url: jobschneider.dev/
-    tasks:
-      - Row for work site in timesheet:
-        - simple textfield in timesheet
-      - Worker_additions:
-        - SSN
-      - role authorizations
-      - notifications
 
   ovc:
     url: ovc.dev/
@@ -103,6 +84,10 @@ tasks:
   Life:
     get_receipts_together:
       - for accountant
+
+  bluesky:
+    url: bluesky.dev/
+    tasks:
 
   JSQuiz:
     - find quiz
