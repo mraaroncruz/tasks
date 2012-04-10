@@ -1,11 +1,7 @@
 tasks:
 
-  emails:
-  - maia
-  - jen
-
   tlg:
-    url: tlg.dev/
+    url: localhost:3000
     tasks:
       - volunteer information on volunteer show
 
